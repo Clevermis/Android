@@ -6,13 +6,13 @@
 
 ### 所有代码均通过运行
 ### 运行环境：
-    #### language:java
-    #### Minimum SDK: API 21:Android 5.0 (Lollipop)
+     language:java
+     Minimum SDK: API 21:Android 5.0 (Lollipop)
 ### 制作匆忙，如有错误，欢迎提出issues
 
 
 ## Precautions：
-#### 1.对于xml文件：文件命名采用与该文件使用的控件名相同
-#### 2.对于java文件：文件名与该文件所对应的xml控件名相同
+    1.对于xml文件：文件命名采用与该文件使用的控件名相同
+    2.对于java文件：文件名与该文件所对应的xml控件名相同
 
 
