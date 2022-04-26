@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--
+        知识点：
+    layout_marginTop 指定该属性所在控件距上部最近控件的最小值；
+
+    layout_marginBottom 指定该属性所在控件距下部最近控件的最小值；
+
+    layout_marginLeft 指定该属性所在控件距左边最近控件的最小值；
+
+    layout_marginRight 指定该属性所在控件距右边最近控件的最小值
+
+    -->
+
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:text="Add"
+        android:textSize="24sp"
+    />
+
+    <TextView
+        android:id="@+id/textViewNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:text="0"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:text="Sub"
+        android:textSize="24sp"
+    />
+</LinearLayout>

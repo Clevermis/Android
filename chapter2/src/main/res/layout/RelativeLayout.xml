@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/l1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!--
+    知识点：
+
+      android:layout_above                                将该控件的底部至于给定ID的控件之上（只写一行代该控件底部与id控件上边缘对其，且默认于父布局左边）
+      android:layout_below                                将该控件的顶部至于给定ID的控件之下（只写一行代该控件顶部与id控件下边缘对其，且默认于父布局左边）
+      android:layout_toLeftOf                             将该控件的右边缘和给定ID的控件的左边缘对齐,默认是位于父布局的顶部
+      android:layout_toRightOf                            将该控件的左边缘和给定ID的控件的右边缘对齐，默认位于父布局的顶部
+
+
+    -->
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="中"
+        android:textSize="60sp"
+        android:textStyle="bold"
+    />
+
+    <TextView
+        android:id="@+id/n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/c"
+        android:layout_centerInParent="true"
+        android:text="北"
+        android:textSize="60sp"
+        android:textStyle="bold"
+    />
+
+    <TextView
+        android:id="@+id/s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c"
+        android:layout_centerInParent="true"
+        android:text="南"
+        android:textSize="60sp"
+        android:textStyle="bold"
+    />
+
+    <TextView
+        android:id="@+id/w"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/c"
+        android:text="西"
+        android:textSize="60sp"
+        android:textStyle="bold"
+    />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/c"
+        android:text="东"
+        android:textSize="60sp"
+        android:textStyle="bold"
+    />
+</RelativeLayout>

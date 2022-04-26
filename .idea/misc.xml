@@ -4,6 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.20018115942028986" />
+        <entry key="chapter2/src/main/res/layout/Button.xml" value="0.24864130434782608" />
+        <entry key="chapter2/src/main/res/layout/CheckBox.xml" value="0.24864130434782608" />
+        <entry key="chapter2/src/main/res/layout/EditText.xml" value="0.24864130434782608" />
+        <entry key="chapter2/src/main/res/layout/FrameLayout.xml" value="0.24864130434782608" />
+        <entry key="chapter2/src/main/res/layout/activity_layout.xml" value="0.25" />
+        <entry key="chapter2/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="chapter2/src/main/res/layout/activity_xml.xml" value="0.24864130434782608" />
+        <entry key="chapter2/src/main/res/layout/test.xml" value="0.24094202898550723" />
+        <entry key="chapter2/src/main/res/layout/toast_customer.xml" value="0.24864130434782608" />
       </map>
     </option>
   </component>
