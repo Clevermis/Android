@@ -13,6 +13,10 @@
         <entry key="chapter2/src/main/res/layout/activity_xml.xml" value="0.24864130434782608" />
         <entry key="chapter2/src/main/res/layout/test.xml" value="0.24094202898550723" />
         <entry key="chapter2/src/main/res/layout/toast_customer.xml" value="0.24864130434782608" />
+        <entry key="chapter3/src/main/res/layout/AlertDialog.xml" value="0.24864130434782608" />
+        <entry key="chapter3/src/main/res/layout/DatePicker.xml" value="0.24864130434782608" />
+        <entry key="chapter3/src/main/res/layout/TImePicker.xml" value="0.24864130434782608" />
+        <entry key="chapter3/src/main/res/layout/customer_dialog.xml" value="0.24864130434782608" />
       </map>
     </option>
   </component>
